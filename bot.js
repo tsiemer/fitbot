@@ -1,4 +1,4 @@
-var token = "xoxb-24169967366-5VU9tfSxsunbKlWuYzr1GI39";
+var token = "{your token here}";
 
 var Botkit = require('botkit');
 var fullChannelList = [];
