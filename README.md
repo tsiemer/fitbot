@@ -11,7 +11,7 @@ Then create an empty .js file on your machine.  Enter the following code into th
 var Botkit = require('botkit');
 var controller = Botkit.slackbot();
 var bot = controller.spawn({
-  token: my_slack_bot_token
+  token: my_slack_bot_token // <-- make sure you replace this!
 })
 bot.startRTM(function(err,bot,payload) {
   if (err) {
@@ -22,5 +22,9 @@ bot.startRTM(function(err,bot,payload) {
 
 Fowllow these [docs](http://howdy.ai/botkit/docs/) for an understanding of how to build your slack integrated bot in node using botkit.
 
+Once your bot is on your local disk you can run it by opening up a terminal/console and changing director into the directory that contains your .js file.  Then type node and the file name you are running.
 
+```
+node bot
+```
 
