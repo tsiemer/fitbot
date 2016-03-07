@@ -3,16 +3,16 @@ description: Gives the team exercises now and then to get them out of their seat
 avatar: fitbot.jpg
 background: fitbot.jpg
 config:
-  - name: OPTION
-    friendly_name: Some Unnecessary Option
-    info: This is an unnecessary option
-    default: the default value
-  - name: SECRET
-    friendly_name: Shhhh
-    info: This is an secret option
-    type: secret
-    default: not secret though
-    global: true
-screenshots:
-  - screenshot: images/screenshot1.png
-  - screenshot: images/screenshot2.jpg
+#  - name: OPTION
+#    friendly_name: Some Unnecessary Option
+#    info: This is an unnecessary option
+#    default: the default value
+#  - name: SECRET
+#    friendly_name: Shhhh
+#    info: This is an secret option
+#    type: secret
+#    default: not secret though
+#    global: true
+#screenshots:
+#  - screenshot: images/screenshot1.png
+#  - screenshot: images/screenshot2.jpg
