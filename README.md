@@ -20,7 +20,7 @@ bot.startRTM(function(err,bot,payload) {
 });
 ```
 
-Fowllow these [docs](http://howdy.ai/botkit/docs/) for an understanding of how to build your slack integrated bot in node using botkit.
+Follow these [docs](http://howdy.ai/botkit/docs/) for an understanding of how to build your slack integrated bot in node using botkit.
 
 Once your bot is on your local disk you can run it by opening up a terminal/console and changing director into the directory that contains your .js file.  Then type node and the file name you are running.
 
