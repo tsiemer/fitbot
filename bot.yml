@@ -1,7 +1,7 @@
 name: bitbot
 description: Gives the team exercises now and then to get them out of their seats.
 avatar: fitbot.jpg
-background: images/background.png
+background: fitbot.jpg
 config:
   - name: OPTION
     friendly_name: Some Unnecessary Option
