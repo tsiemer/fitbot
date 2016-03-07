@@ -1,6 +1,6 @@
 name: bitbot
 description: Gives the team exercises now and then to get them out of their seats.
-avatar: images/avatar.jpg
+avatar: fotbot.jpg
 background: images/background.png
 config:
   - name: OPTION
