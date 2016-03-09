@@ -1,0 +1,27 @@
+{
+	"name":"fitbot",
+	"version":"0.2.0",
+	"description": "A slack bot written in node that suggests hourly exercises.",
+	"main":"bot.js",
+	"scripts":{
+		"start": "node bot.js"
+	},
+	"dependencies": {
+		"botkit":"0.0.8"
+	},
+	"engines": {
+		"node":"4.0.0"
+		},
+	"repository": {
+	    "type": "git",
+	    "url": "https://github.com/asiemer/fitbot"
+	  },
+	  "keywords": [
+	  	"bots",
+	  	"chatbots",
+	  	"slack",
+	  	"fitness"
+	  ],
+	  "author":"@asiemer",
+	  "license":"MIT"
+}

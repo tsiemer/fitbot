@@ -1,4 +1,4 @@
-var token = "{your token here}";
+var token = "xoxb-24169967366-YRMKeNHL5yM2ikGe67GB7LOS";
 
 var Botkit = require('botkit');
 var fullChannelList = [];
@@ -29,7 +29,7 @@ var exercises = [
 	{name:'pushups', how:'With your chest laying flat on the ground, push your body away from the ground.'},
 	{name:'burpees', how:'Alternate between one push up, and one jump to touch the stars. Repeat.'},
 	{name:'flutter kicks', how:'Laying on your back, hands under your butt, with straight legs, kick your toes from 6 inches to 36 inches.'},
-	{name:'wall sits', how:'Put your back against the wall, and lower your butt towards teh ground until your theighs are parrallel to the ground.'},
+	{name:'wall sits', how:'Put your back against the wall, and lower your butt towards the ground until your thighs are parrallel to the ground. Hold it for N number of seconds.'},
 	{name:'air squats', how:'Stand with your feet shoulder width apart.  Lower your butt towards your heels, keeping your back flat while looking forward. Then stand up.'},
 	{name:'mountain climbers', how:'Get in push up position. Then alternate bringing one knee up to your chest then back straight again. As if you are running in place while in push up position.'},
 	{name:'v-ups', how:'Lay on your back.  Lift your legs straight into the air.  Then crunch up and try to touch your toes.  Leaving your feet in the air, lower back to the ground.  And repeat.'}
@@ -365,15 +365,14 @@ var logger = function()
 
                             var today = new Date();
 
-							var strDate = 'Y-mo-d-h:mi:s'
-							  .replace('Y', today.getFullYear())
-							  .replace('mo', today.getMonth()+1)
-							  .replace('d', today.getDate())
-							  .replace('h', today.getHours())
-							  .replace('mi', today.getMinutes())
-							  .replace('s', today.getSeconds());
-
                             console.log = function(msg) {
+                            	var strDate = 'Y-mo-d-h:mi:s'
+								  .replace('Y', today.getFullYear())
+								  .replace('mo', today.getMonth()+1)
+								  .replace('d', today.getDate())
+								  .replace('h', today.getHours())
+								  .replace('mi', today.getMinutes())
+								  .replace('s', today.getSeconds());
                             	oldConsoleLog(strDate + ' - ' + msg);
                             };
                         };
