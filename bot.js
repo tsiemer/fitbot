@@ -33,7 +33,10 @@ var exercises = [
 	{name:'wall sits', how:'Put your back against the wall, and lower your butt towards the ground until your thighs are parrallel to the ground. Hold it for N number of seconds.'},
 	{name:'air squats', how:'Stand with your feet shoulder width apart.  Lower your butt towards your heels, keeping your back flat while looking forward. Then stand up.'},
 	{name:'mountain climbers', how:'Get in push up position. Then alternate bringing one knee up to your chest then back straight again. As if you are running in place while in push up position.'},
-	{name:'v-ups', how:'Lay on your back.  Lift your legs straight into the air.  Then crunch up and try to touch your toes.  Leaving your feet in the air, lower back to the ground.  And repeat.'}
+	{name:'v-ups', how:'Lay on your back.  Lift your legs straight into the air.  Then crunch up and try to touch your toes.  Leaving your feet in the air, lower back to the ground.  And repeat.'},
+	{name:'planks', how:'Start by getting into pushup position.  Then drop down onto your elbows.  Keep your back flat and your core engaged.  Hold this position for 3X N seconds.'},
+	{name:'jumping jacks', how:'Start with your feet together, hands at your side. Jump into the air and land with your feet shoulder width apart and hands over head (clapping optional). Then jump again and land in the starting position.'},
+	{name:'lunges', how:'Start with your feet together. Step out with one foot and lunge forward dropping your butt low enough so that your front thigh is parrallel to the ground. Bring your back foot up and lunge out with that foot. Repeat.'}
 ];
 
 var messages = [
@@ -254,6 +257,7 @@ controller.hears(["list"],["mention", "direct_mention", "direct_message"], funct
 	bot.reply(message, "list: lists commands that fitbot currently supports");
 	bot.reply(message, "exercise *: teaches you how to perform an exercise");
 	bot.reply(message, "exercises: lists all the exercies fitbot currently knows");
+	bot.reply(message, "random: gives you a random exercise to do");
 });
 
 //exercise help
