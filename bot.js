@@ -19,8 +19,9 @@ var scheduleIterationTime = 60 * 1000; //1 minute
 if(testing)
 	scheduleIterationTime = 1000;
 
-var timeFrom = 7; //8am
-var timeTo = 17; //4pm
+var offset = 7;
+var timeFrom = 7 + offset; //8am
+var timeTo = 16 + offset; //4pm
 
 var exerciseMin = 8;
 var exerciseMax = 20;
