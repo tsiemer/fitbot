@@ -6,7 +6,7 @@ var fullChannelList = [];
 //put the app into testing mode (shortens time cycle to one minute, and doesn't check last hour ran)
 var testing = false;
 
-var fitChannelNames = ['do-stuff-outdoors','tough-mudder-2016','hourly-pushups'];
+var fitChannelNames = ['get-fit-at-work','hourly-pushups'];
 //var fitChannelNames = ['fit-channel-test-1','fit-channel-test-2'];
 
 var fitChannelList = [];
@@ -36,7 +36,8 @@ var exercises = [
 	{name:'v-ups', how:'Lay on your back.  Lift your legs straight into the air.  Then crunch up and try to touch your toes.  Leaving your feet in the air, lower back to the ground.  And repeat.'},
 	{name:'planks', how:'Start by getting into pushup position.  Then drop down onto your elbows.  Keep your back flat and your core engaged.  Hold this position for 3X N seconds.'},
 	{name:'jumping jacks', how:'Start with your feet together, hands at your side. Jump into the air and land with your feet shoulder width apart and hands over head (clapping optional). Then jump again and land in the starting position.'},
-	{name:'lunges', how:'Start with your feet together. Step out with one foot and lunge forward dropping your butt low enough so that your front thigh is parrallel to the ground. Bring your back foot up and lunge out with that foot. Repeat.'}
+	{name:'lunges', how:'Start with your feet together. Step out with one foot and lunge forward dropping your butt low enough so that your front thigh is parrallel to the ground. Bring your back foot up and lunge out with that foot. Repeat.'},
+	{name:'inch worms', how:'Start in push up position. Walk your feet up to your hands.  Then walk your hands back out to push up position. Repeat.'}
 ];
 
 var messages = [
