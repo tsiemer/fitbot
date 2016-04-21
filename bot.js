@@ -1,4 +1,4 @@
-var token = "xoxb-24169967366-YRMKeNHL5yM2ikGe67GB7LOS";
+var token = process.env.SLACK_TOKEN;
 
 var Botkit = require('botkit');
 var fullChannelList = [];
