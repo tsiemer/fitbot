@@ -4,7 +4,7 @@ FROM node:argon
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-#install botkit
+# install botkit
 RUN npm install --save botkit
 COPY bot.js /usr/src/app/
 COPY package.json /user/src/app/
